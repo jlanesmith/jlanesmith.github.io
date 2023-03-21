@@ -1,12 +1,11 @@
 import React from 'react';
 
-const About = () => {
+const Education = () => {
 return (
 	<div
 	style={{
 		display: 'flex',
 		justifyContent: 'center',
-		height: '100vh'
 	}}
 	>
 	<h1>Jonathan is a fun guy.</h1>
@@ -14,4 +13,4 @@ return (
 );
 };
 
-export default About;
+export default Education;

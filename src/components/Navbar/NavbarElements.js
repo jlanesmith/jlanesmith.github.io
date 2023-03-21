@@ -9,8 +9,13 @@ display: flex;
 color: #FFFFFF;
 `;
 
+export const NavText = styled.nav`
+font-size: 17px;
+// font-weight: bold;
+`;
+
 export const Nav = styled.nav`
-background: #5771c9;
+background: #222222;
 height: 85px;
 display: flex;
 justify-content: space-between;
@@ -22,16 +27,16 @@ z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-color: #DDDDDD;
+color: #FFFFFF;
 display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
-&.active {
-	color: #000000;
-}
+// &.active {
+// 	color: #000000;
+// }
 `;
 
 export const Bars = styled(FaBars)`

@@ -5,9 +5,11 @@ NavLink,
 Bars,
 NavMenu,
 NameTitle,
-NavBtn,
-NavBtnLink,
+NavText,
+// NavBtn,
+// NavBtnLink,
 } from './NavbarElements';
+import me from '../../images/me.jpg'
 
 const Navbar = () => {
 return (
@@ -15,30 +17,35 @@ return (
 	<Nav>
 		<Bars />
     <NameTitle>
+      <img 
+        style={{
+          height: '40px', 
+          borderRadius: '10px',
+          marginRight: '20px'
+        }} 
+        src={me} alt="Me" 
+      />
       <div style={{fontSize: 20}}> Jonathan Lane-Smith </div>
     </NameTitle>
 
 		<NavMenu>
       <NavLink to='/' activeStyle>
-        Home
+        <NavText>Home</NavText> 
       </NavLink>
-      <NavLink to='/about' activeStyle>
-        About
+      <NavLink to='/education' activeStyle>
+        <NavText>Education</NavText>
       </NavLink>
-      <NavLink to='/events' activeStyle>
-        Events
+      <NavLink to='/work' activeStyle>
+        <NavText>Work</NavText>
       </NavLink>
-      <NavLink to='/annual' activeStyle>
-        Annual Report
+      <NavLink to='/music' activeStyle>
+        <NavText>Music</NavText>
       </NavLink>
-      <NavLink to='/team' activeStyle>
-        Teams
-      </NavLink>
-      <NavLink to='/blogs' activeStyle>
-        Blogs
-      </NavLink>
-      <NavLink to='/sign-up' activeStyle>
-        Sign Up
+      {/* <NavLink to='/faith' activeStyle>
+        Faith
+      </NavLink> */}
+      <NavLink to='/resume' activeStyle>
+        <NavText>Resume/CV</NavText>
       </NavLink>
       {/* Second Nav
       <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
