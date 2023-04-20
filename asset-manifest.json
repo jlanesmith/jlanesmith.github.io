@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.c2ce7b22.css",
-    "main.js": "/static/js/main.fbfdf608.js",
+    "main.js": "/static/js/main.c25f0679.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/waterloo.png": "/static/media/waterloo.1f9cfc43775030dbed90.png",
+    "static/media/mcgill.png": "/static/media/mcgill.98e077102354a1d82f7a.png",
     "static/media/me.jpg": "/static/media/me.70939d822aee98379d08.jpg",
     "index.html": "/index.html",
     "main.c2ce7b22.css.map": "/static/css/main.c2ce7b22.css.map",
-    "main.fbfdf608.js.map": "/static/js/main.fbfdf608.js.map",
+    "main.c25f0679.js.map": "/static/js/main.c25f0679.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2ce7b22.css",
-    "static/js/main.fbfdf608.js"
+    "static/js/main.c25f0679.js"
   ]
 }
