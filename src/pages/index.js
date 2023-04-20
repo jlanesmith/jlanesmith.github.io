@@ -1,11 +1,11 @@
 import React from 'react';
 import me from '../images/me.jpg'
+import FancyButton from '../components/fancyButton';
 
 const Home = () => {
 return (
 	<div
     style={{
-      width: '100%',
       textAlign: 'center',
     }}
 	>
@@ -20,9 +20,12 @@ return (
           <h1 style={{textAlign: 'center', marginBottom: '50px'}} >
             Welcome to my website!
           </h1>
-          <p style={{textAlign: 'center', fontSize: '18px', maxWidth: '360px'}} >
+          <p style={{textAlign: 'center', fontSize: '18px', maxWidth: '400px'}} >
             My name is Jonathan Lane-Smith. I am a haptics firmware engineer at Apple, a graduate of the University of Waterloo 
-            and McGill University, and a lover of all things music. Click the images below  to learn more about me!
+            and McGill University, and a lover of all things music. 
+            <br/>
+            <br/>
+            Click the images below  to learn more about me!
           </p>
         </div>
         <div
@@ -43,6 +46,7 @@ return (
         </div>
       </div>
     </div>
+    <FancyButton title={"Work"}/>
 	</div>
 );
 };
