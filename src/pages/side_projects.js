@@ -8,7 +8,7 @@ return (
 		justifyContent: 'center',
 	}}
 	>
-	<h1>Jonathan is educated.</h1>
+	<h1>Jonathan has done many side projects.</h1>
 	</div>
 );
 };

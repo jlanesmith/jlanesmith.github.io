@@ -46,7 +46,28 @@ return (
         </div>
       </div>
     </div>
-    <FancyButton title={"Work"}/>
+    <div style={{
+      display: 'flex', 
+      alignItems: 'center',
+      justifyContent: 'center'
+      }}>
+      <div 
+        style={{
+          display: 'flex',
+          width: '100%',
+          maxWidth: '1000px',
+          marginTop: '50px'
+        }}
+      >
+        <FancyButton title={"Education"}/>
+        <FancyButton title={"Work"}/>
+        <FancyButton title={"Side Projects"}/>
+        <FancyButton title={"Music"}/>
+      </div>
+    </div>
+    <div style={{marginTop: '60px'}}>
+      <FancyButton title={"Resume/CV"}/>
+    </div>
 	</div>
 );
 };
