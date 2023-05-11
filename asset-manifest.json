@@ -1,18 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.c2ce7b22.css",
-    "main.js": "/static/js/main.c25f0679.js",
+    "main.js": "/static/js/main.2235dacd.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/piano.png": "/static/media/piano.efdc4d919087820613db.png",
+    "static/media/gts.png": "/static/media/gts.43033dac6d28854f1c65.png",
     "static/media/waterloo.png": "/static/media/waterloo.1f9cfc43775030dbed90.png",
+    "static/media/autodesk.png": "/static/media/autodesk.249ba38ed77d260ba2a9.png",
     "static/media/mcgill.png": "/static/media/mcgill.98e077102354a1d82f7a.png",
     "static/media/me.jpg": "/static/media/me.70939d822aee98379d08.jpg",
+    "static/media/apple.png": "/static/media/apple.50a2445da392b6e9703a.png",
+    "static/media/messenger.png": "/static/media/messenger.37fd973e8f0e9ba97da4.png",
+    "static/media/guitar.png": "/static/media/guitar.dd17a9d08db413af9e66.png",
+    "static/media/music.png": "/static/media/music.2cb624cec74e22a98fe6.png",
     "index.html": "/index.html",
     "main.c2ce7b22.css.map": "/static/css/main.c2ce7b22.css.map",
-    "main.c25f0679.js.map": "/static/js/main.c25f0679.js.map",
+    "main.2235dacd.js.map": "/static/js/main.2235dacd.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2ce7b22.css",
-    "static/js/main.c25f0679.js"
+    "static/js/main.2235dacd.js"
   ]
 }
